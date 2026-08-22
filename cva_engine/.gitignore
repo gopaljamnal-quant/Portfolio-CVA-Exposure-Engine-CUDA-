@@ -1,0 +1,22 @@
+# Python build and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE configurations
+.idea/
+.vscode/
+*.suo
+*.sln
+
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated outputs (Ignore everything except the target directory itself)
+outputs/*
+!outputs/.gitkeep
